@@ -1,0 +1,24 @@
+.App-header {
+  background-color: #62f54f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form {
+  background-color: green;
+  color: #61dafb;
+}
+.accordian_header {
+  color: black;
+}
+.accordian_bodyOne {
+  color: blue;
+}
+.accordian_bodyTwo {
+  color: chartreuse;
+}
