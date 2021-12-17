@@ -1,37 +1,21 @@
-.App-header {
-  background-color: #62f54f;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contain {
+  background-color: blueviolet;
 }
 
-.form {
-  background-color: green;
-  color: #61dafb;
+.hero {
+  background-color: chocolate;
 }
 
-.accordian_header {
-  color: black;
+.questions {
+  background-color: darkblue;
 }
 
-.accordian_bodyOne {
-  color: blue;
+.foot {
+  color: #070f0f;
+  background-color: #2df306;
 }
 
-.accordian_bodyTwo {
-  color: chartreuse;
+.nav_bar {
+  background-color: cadetblue;
 }
 /*# sourceMappingURL=Styles.css.map */

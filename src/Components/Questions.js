@@ -1,14 +1,12 @@
 import React from "react";
 import { Accordion } from "react-bootstrap";
 
-const Accordions = () => {
+const Questions = () => {
   return (
-    <Accordion defaultActiveKey="0" flush>
+    <Accordion flush className="questions">
       <Accordion.Item eventKey="0">
-        <Accordion.Header className="accordian_header">
-          Accordion Item #1
-        </Accordion.Header>
-        <Accordion.Body className="accordian_bodyOne">
+        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -19,10 +17,8 @@ const Accordions = () => {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header className="accordian_header">
-          Accordion Item #2
-        </Accordion.Header>
-        <Accordion.Body className="accordian_bodyTwo">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -36,4 +32,4 @@ const Accordions = () => {
   );
 };
 
-export default Accordions;
+export default Questions;
